@@ -1,25 +1,38 @@
 import React, { Component } from 'react'
+import { Redirect } from 'react-router-dom'
 
 import './SignIn.css'
 class SignIn extends Component {
-    state = {
-        email: '',
-        password: ''
+    constructor(props) {
+        super(props);
+        this.state = {
+            email: '',
+            password: '',
+            isRedirect: false,
+        };
     }
 
-    handleChange=(e) => {
-        this.state =({
+    handleChange = e => {
+        this.setState({
             [e.target.id]: e.target.value
-        })
-    }
-    handleSubmit = (e) => {
+        });
+    };
+
+    handleSubmit = e => {
         e.preventDefault();
-        console.log(this.state);
-    }
+        this.setState({
+           isRedirect: true,
+        });
+
+    };
 
     render() {
+        if (this.state.isRedirect) {
+            return <Redirect to='/dashboard' />
+        }
+
         return (
-            <div className= "conatainer">
+            <div className= "container">
                 <div className="boxborder">
                 <form onSubmit={this.handleSubmit} className="textbox">
                     <h5 className="grey-text text-darken-3">Sign In</h5>

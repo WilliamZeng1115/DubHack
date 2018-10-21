@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1540e97a-0b25-4862-ba77-3b72ee7569b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confession/src/Components/Auth/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/confession/src/Components/Auth/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confession/src/Components/Post/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/confession/src/Components/Post/PostList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,34 +57,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="1" />
-          <entry key="js" value="7" />
+          <entry key="js" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="565" />
+          <entry key="js" value="839" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="565" />
+          <entry key="JavaScript" value="839" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -98,6 +99,18 @@
               <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/confession/src/Components/Post/PostList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confession/src/Reducers/Posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="198">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -154,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confession/src/Components/Auth/SignIn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="-513">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -183,6 +196,7 @@
       <find>SignIn</find>
       <find>Posts</find>
       <find>ReducerMan</find>
+      <find>props</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,6 +216,8 @@
         <option value="$PROJECT_DIR$/confession/src/Components/Layout/Navbar.js" />
         <option value="$PROJECT_DIR$/confession/.env" />
         <option value="$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js" />
+        <option value="$PROJECT_DIR$/confession/src/Components/Auth/SignIn.js" />
+        <option value="$PROJECT_DIR$/confession/src/Components/Post/PostList.js" />
       </list>
     </option>
   </component>
@@ -253,6 +269,45 @@
               <item name="DubHack" type="462c0819:PsiDirectoryNode" />
               <item name="confession" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DubHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DubHack" type="462c0819:PsiDirectoryNode" />
+              <item name="confession" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DubHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DubHack" type="462c0819:PsiDirectoryNode" />
+              <item name="confession" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DubHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DubHack" type="462c0819:PsiDirectoryNode" />
+              <item name="confession" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DubHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DubHack" type="462c0819:PsiDirectoryNode" />
+              <item name="confession" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DubHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DubHack" type="462c0819:PsiDirectoryNode" />
+              <item name="confession" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -294,12 +349,12 @@
       <workItem from="1539213011992" duration="2752000" />
       <workItem from="1539593609896" duration="2719000" />
       <workItem from="1540068142330" duration="450000" />
-      <workItem from="1540125790829" duration="3787000" />
+      <workItem from="1540125790829" duration="5323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16898000" />
+    <option name="totallyTimeSpent" value="18434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="-5" width="1845" height="1085" extended-state="6" />
@@ -355,13 +410,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/confession/src/Components/Post/CreatePost.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/confession/src/Components/Post/PostList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/confession/src/App.css" />
     <entry file="file://$PROJECT_DIR$/confession/src/App.test.js" />
@@ -427,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confession/src/Components/Home/Home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/confession/src/Components/Layout/SignedInLinks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -485,13 +526,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confession/src/Components/Auth/SignIn.js">
+    <entry file="file://$PROJECT_DIR$/confession/src/Components/Home/Home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confession/src/Actions/ShowDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -505,26 +560,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confession/src/Actions/ShowDetail.js">
+    <entry file="file://$PROJECT_DIR$/confession/src/Components/Auth/SignIn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="-513">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/confession/src/Reducers/Posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="198">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js">
+    <entry file="file://$PROJECT_DIR$/confession/src/Components/Post/PostList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="190">
+          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

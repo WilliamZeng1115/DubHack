@@ -33,17 +33,20 @@ class PostList extends Component {
 
     createListItem() {
         let filteredList = this.filterListItem();
-        return filteredList.map((post) => {
-            return (
-                <div className="card z-depth-0 project-summary pointer" key={post.id} onClick={() => this.props.clickPost(post)}>
-                    <div className="card-content grey-text text-darken-3">
-                        <span className="card-title">{post.title}</span>
-                        <p>Category and short summary (TDLR)</p>
-                        <p className="grey-text">{this.getDateToString(post.created_at)}</p>
+        console.log(filteredList);
+        if (filteredList) {
+            return filteredList.map((post) => {
+                return (
+                    <div className="card z-depth-0 project-summary pointer" key={post.id} onClick={() => this.props.clickPost(post)}>
+                        <div className="card-content grey-text text-darken-3">
+                            <span className="card-title">{post.title}</span>
+                            <p>Category and short summary (TDLR)</p>
+                            <p className="grey-text">{this.getDateToString(post.created_at)}</p>
+                        </div>
                     </div>
-                </div>
-            );
-        });
+                );
+            });
+        }
     }
 
     render() {
