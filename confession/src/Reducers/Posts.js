@@ -1,10 +1,11 @@
 import {ref} from "../base";
 
-export default function() {
+export default async function() {
     // get posts from database using ref
     // return array
-    ref.on('value', function(data) {
-        console.log(data.val());
+    return new Promise(function(resolve, reject) {
+        ref.on('value', snapshot => {
+            resolve(snapshot.val());
+        })
     });
-    return [];
 }

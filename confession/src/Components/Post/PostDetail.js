@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 class PostDetail extends Component {
 
     render() {
+        console.log(this.props.post);
         if (!this.props.post) {
             return (
                 <h2>Select a post.</h2>
@@ -11,7 +12,7 @@ class PostDetail extends Component {
         }
         return (
           <div>
-              <h2>{this.props.post.detail}</h2>
+              <h2>{this.props.post.Description}</h2>
           </div>
         );
     }
