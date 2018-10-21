@@ -9,4 +9,5 @@ export default function() {
         console.log(data.val());
         return data.val();
     });
+    return [];
 }

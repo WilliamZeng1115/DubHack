@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
+import "./Home.css"
 //import {ref} from "../../base";
 //import {post} from "../../Actions/GetDetails";
 
@@ -16,7 +17,6 @@ class Home extends Component {
                 <p></p>
                 Your Confession: <br/>
                 <textarea name="home" cols="10" rows="5" placeholder={"Type in your message..."}></textarea>
-                <input type="post" name="post" placeholder={"Type in your message..."}/>
                 <div className = "align-right">
                     <p>
                     <button type = "submit"> Submit </button>
