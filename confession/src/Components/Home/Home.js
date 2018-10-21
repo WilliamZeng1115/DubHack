@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
-import './Home.css'
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
+import "./Home.css"
+//import {ref} from "../../base";
+//import {post} from "../../Actions/GetDetails";
+
 
 class Home extends Component {
 
@@ -10,17 +15,30 @@ class Home extends Component {
                 Your Location:<br/>
                 <input type="location" names="location" className="validate" placeholder={"City"}/>
                 <p></p>
-
                 Your Confession: <br/>
                 <textarea name="home" cols="10" rows="5" placeholder={"Type in your message..."}></textarea>
-                
                 <div className = "align-right">
-                    <button type = "submit" > Submit </button>
+                    <p>
+                    <button type = "submit"> Submit </button>
+                    </p>
                 </div>
-
+                {this.props.posts}
             </div>
         )
     }
 }
 
-export default Home;
+// function matchDispatchToProps(dispatch) {
+//     return bindActionCreators({
+//         post: post
+//     }, dispatch)
+// }
+
+
+function mapStateToProps(state) {
+    return {
+        post: state.post
+    };
+}
+
+export default connect(mapStateToProps)(Home);

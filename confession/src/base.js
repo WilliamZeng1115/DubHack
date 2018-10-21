@@ -11,6 +11,7 @@ const config = {
 };
 
 const app = firebase.initializeApp(config);
-const base = Rebase.createClass(app.database());
+const base = app.database();
+const ref = base.ref('Confession/Posts');
 
-export {base}
+export {ref}
