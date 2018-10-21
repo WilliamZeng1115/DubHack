@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "cross-env": "^5.2.0",
+    "ffmpeg": "0.0.4",
     "firebase": "^5.5.3",
     "re-base": "^4.0.0",
     "react": "^16.5.2",
