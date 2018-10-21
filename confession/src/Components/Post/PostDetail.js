@@ -7,7 +7,7 @@ class PostDetail extends Component {
         console.log(this.props.post);
         if (!this.props.post) {
             return (
-                <h2>Select a post.</h2>
+                <h3 id="postpara">Select a post.</h3>
             );
         }
         return (

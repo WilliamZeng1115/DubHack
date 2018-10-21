@@ -8,9 +8,15 @@ class SignIn extends Component {
         this.state = {
             email: '',
             password: '',
-            isRedirect: false,
         };
     }
+
+    handleButtonClick = e => {
+        e.preventDefault();
+        console.log("button click");
+        localStorage.setItem('dubhack', 'william');
+        this.props.history.push('/Dashboard');
+    };
 
     handleChange = e => {
         this.setState({
@@ -20,14 +26,15 @@ class SignIn extends Component {
 
     handleSubmit = e => {
         e.preventDefault();
-        this.setState({
-           isRedirect: true,
-        });
-
+        console.log("form submit");
+        localStorage.setItem('dubhack', 'william');
+        this.props.history.push('/Dashboard');
     };
 
+
+
     render() {
-        if (this.state.isRedirect) {
+        if (localStorage.getItem('dubhack') == 'william') {
             return <Redirect to='/dashboard' />
         }
 
@@ -45,7 +52,13 @@ class SignIn extends Component {
                         <input type="password" id="password" onChange={this.handleChange}/>
                     </div>
                     <div className="inputfield">
-                        <button className="btn pink lighten-1 z-depth-0">LogIn</button>
+                        <button
+                            type="submit"
+                            className="btn pink lighten-1 z-depth-0"
+                            onClick={this.handleButtonClick}
+                        >
+                            LogIn
+                        </button>
                     </div>
                 </form>
             </div>
