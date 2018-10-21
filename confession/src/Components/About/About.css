@@ -1,0 +1,33 @@
+.AboutText {
+    padding-left: 30px;
+    padding-bottom: 1100px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.leftcolumn {
+    float: left;
+    width: 70%;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 100px;
+
+}
+
+.rightcolumn {
+    float: left;
+    width: 30%;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}

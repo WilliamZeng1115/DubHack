@@ -1,0 +1,11 @@
+.home {
+    text-align: center;
+    padding-top: 100px;
+}
+
+textarea {
+    resize: none;
+    background: white;
+    width: 600px;
+    height: 300px;
+}

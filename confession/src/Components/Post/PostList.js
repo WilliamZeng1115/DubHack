@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {clickPost} from '../../Actions/ShowDetail';
+import './Post.css'
 
 class PostList extends Component {
 
@@ -34,7 +35,7 @@ class PostList extends Component {
         let filteredList = this.filterListItem();
         return filteredList.map((post) => {
             return (
-                <div className="card z-depth-0 project-summary" key={post.id} onClick={() => this.props.clickPost(post)}>
+                <div className="card z-depth-0 project-summary pointer" key={post.id} onClick={() => this.props.clickPost(post)}>
                     <div className="card-content grey-text text-darken-3">
                         <span className="card-title">{post.title}</span>
                         <p>Category and short summary (TDLR)</p>

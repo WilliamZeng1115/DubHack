@@ -1,11 +1,11 @@
-    import React, { Component } from 'react'
+import React, { Component } from 'react'
+import './About.css'
 
 class About extends Component {
 
     render() {
         return (
             <div className="AboutText">
-
                 <div className="leftcolumn">
                     <div className="card">
                         <h2>TITLE HEADING</h2>
