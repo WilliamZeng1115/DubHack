@@ -8,7 +8,7 @@ const NavbarElements = () => {
             <li><NavLink to='/Dashboard'>Dashboard</NavLink></li>
             <li><NavLink to='/About'>About</NavLink></li>
             <li><NavLink to='/Home'>Analyze</NavLink></li>
-            <li><NavLink to='/Login'> Professional  Login </NavLink></li>
+            <li><NavLink to='/SignIn'> Professional  Login </NavLink></li>
         </ul>
     )
 };
