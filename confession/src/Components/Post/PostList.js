@@ -6,6 +6,10 @@ import './Post.css'
 
 class PostList extends Component {
 
+    constructor(props) {
+        super(props);
+    }
+
     filterListItem() {
         switch(this.props.type) {
             case "Top":
@@ -32,6 +36,7 @@ class PostList extends Component {
     }
 
     createListItem() {
+        console.log(this.props.posts);
         let filteredList = this.filterListItem();
         return filteredList.map((post) => {
             return (
