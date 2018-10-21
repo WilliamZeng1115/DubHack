@@ -39,10 +39,10 @@ class Home extends Component {
         return (
             <div className="home">
                 <h2>Make a confession!</h2>
-                Your Location:<br/>
-                <input id="location" type="location" names="location" className="validate" placeholder={"City"}/>
+                <span id="flocation"> Your Location:<br/></span>
+                <textarea id="blocation" name="home" cols="10" rows="1" placeholder={"Type in your city"}></textarea>
                 <p></p>
-                Your Confession: <br/>
+                <span id="flocation"> Your Confession:<br/></span>
                 <textarea id="description" name="home" cols="10" rows="5" placeholder={"Type in your message..."}></textarea>
                 <div className = "align-right">
                     <p>
