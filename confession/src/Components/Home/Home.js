@@ -11,16 +11,28 @@ class Home extends Component {
     }
 
     onSubmit() {
-        //let location = $('location').val();
-       // let description = $('description').val();
-        let dateNow = Date.now().toString();
+        let location = document.getElementById("location").value;
+        let description = document.getElementById("description").value;
+        let dateNow = this.formatDate(Date.now());
         let data = {
-            Name:  "name",
+            Name:  location,
             Created_at: dateNow,
-            Description: "13456"
+            Description: description
         };
         ref.push(data);
         window.location.reload();
+    }
+
+    formatDate(date) {
+        let d = new Date(date),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+
+        return [year, month, day].join('-');
     }
 
     render() {
