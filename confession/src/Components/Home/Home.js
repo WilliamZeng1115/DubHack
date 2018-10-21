@@ -6,11 +6,15 @@ class Home extends Component {
         return (
             <div>
                 <h2>Make a confession!</h2>
-
-                <input type="post" name="post"/>
+                Your Location:<br />
+                <input type="location" names="location" placeholder={"City"}/>
+                <p></p>
+                <input type="post" name="post" placeholder={"Type in your message..."}/>
+                <p>
                 <div className = "align-right">
                     <button type = "submit" > Submit </button>
                 </div>
+                </p>
             </div>
         )
     }
