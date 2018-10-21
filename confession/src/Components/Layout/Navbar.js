@@ -11,9 +11,10 @@ const Navbar = () => {
             <div className="container">
                 <div className="leftnav">
                 <Link to='/Home' className="brand-logo"> Confession </Link>
-                <SignedInLinks />
                 </div>
-                <NavbarElement />
+                <SignedInLinks />
+
+                {/*<NavbarElement />*/}
             </div>
         </nav>
     )

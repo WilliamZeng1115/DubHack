@@ -1,3 +1,9 @@
-.white {
-    background-color: #33ccff !important;
+.textbox {
+    background-color: white;
+    padding: 40px;
+
+}
+
+.boxborder {
+    padding: 100px 80px;
 }
