@@ -5,20 +5,15 @@ import './Navbar.css'
 class Navbar extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            isSignedIn: false,
-        };
     }
 
-    handleSignin = e => {
-        this.state.isSignedIn = true;
-    };
-
     handleLogout = e => {
-        this.state.isSignedIn = false;
+        console.log("handle logout");
+        localStorage.removeItem('dubhack');
     };
 
     render() {
+        let isSignedIn = localStorage.getItem('dubhack') === 'william';
         return (
             <nav className="nav-wrapper grey darken-3">
                 <div className="container">
@@ -28,15 +23,15 @@ class Navbar extends React.Component {
 
                     <ul className="right">
                         {
-                            !this.state.isSignedIn &&
+                            !isSignedIn &&
                                 <li>
-                                    <NavLink to='/SignIn' onClick={this.handleLogin}>
+                                    <NavLink to='/SignIn'>
                                         Professional  Login
                                     </NavLink>
                                 </li>
                         }
                         {
-                            this.state.isSignedIn &&
+                            isSignedIn &&
                                 <div>
                                     <li>
                                         <NavLink to='/Dashboard'>Dashboard</NavLink>
@@ -48,7 +43,7 @@ class Navbar extends React.Component {
                                         <NavLink to='/Home'>Analyze</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to='/Logout' onClick={this.handleLogout}>
+                                        <NavLink to='/Home' onClick={this.handleLogout}>
                                             Logout
                                         </NavLink>
                                     </li>
