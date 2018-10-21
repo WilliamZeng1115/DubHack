@@ -24,11 +24,20 @@ class Navbar extends React.Component {
                     <ul className="right">
                         {
                             !isSignedIn &&
+                            <div>
+                                <li>
+                                <NavLink to='/Dashboard'>Dashboard</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to='/About'>About</NavLink>
+                                </li>
                                 <li>
                                     <NavLink to='/SignIn'>
                                         Professional  Login
                                     </NavLink>
                                 </li>
+                            </div>
+
                         }
                         {
                             isSignedIn &&

@@ -6,12 +6,12 @@ class PostDetail extends Component {
     render() {
         if (!this.props.post) {
             return (
-                <h2>Select a post.</h2>
+                <h3 id="postpara">Select a post.</h3>
             );
         }
         return (
           <div>
-              <h2>{this.props.post.detail}</h2>
+              <h3 id="postpara">{this.props.post.detail}</h3>
           </div>
         );
     }
