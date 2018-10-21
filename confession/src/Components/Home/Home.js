@@ -11,15 +11,16 @@ class Home extends Component {
     }
 
     onSubmit() {
-        let location = $('location').val();
-        let description = $('description').val();
+        //let location = $('location').val();
+       // let description = $('description').val();
         let dateNow = Date.now().toString();
         let data = {
-            Name:  location,
+            Name:  "name",
             Created_at: dateNow,
-            Description: description
+            Description: "13456"
         };
         ref.push(data);
+        window.location.reload();
     }
 
     render() {
