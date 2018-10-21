@@ -34,7 +34,7 @@ class Home extends Component {
                 <textarea id="description" name="home" cols="10" rows="5" placeholder={"Type in your message..."}></textarea>
                 <div className = "align-right">
                     <p>
-                    <button type = "submit" onClick={() => this.onSubmit()}> Submit </button>
+                    <button className="btn pink lighten-1 z-depth-0" type="submit" onClick={() => this.onSubmit()}> Submit </button>
                     </p>
                 </div>
                 {this.props.posts}
