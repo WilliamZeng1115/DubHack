@@ -4,8 +4,6 @@
     <list default="true" id="1540e97a-0b25-4862-ba77-3b72ee7569b9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/confession/src/Components/Home/Home.js" afterPath="$PROJECT_DIR$/confession/src/Components/Home/Home.js" />
-      <change beforePath="$PROJECT_DIR$/confession/src/Reducers/Posts.js" afterPath="$PROJECT_DIR$/confession/src/Reducers/Posts.js" />
-      <change beforePath="$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js" afterPath="$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -108,8 +106,8 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/confession/src/Components/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="195">
+              <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -180,8 +178,8 @@
       <file leaf-file-name="PostList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confession/src/Components/Post/PostList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="126">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -368,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18872000" />
+    <option name="totallyTimeSpent" value="20338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="190" y="116" width="1450" height="811" extended-state="0" />
@@ -744,7 +742,7 @@
         <state relative-caret-position="-513">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -757,30 +755,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confession/src/Components/Post/PostList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/confession/src/Reducers/ReducerManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/confession/src/Components/Post/PostList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/confession/src/Components/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="195">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding />
         </state>
       </provider>

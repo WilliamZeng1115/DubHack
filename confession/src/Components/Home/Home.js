@@ -11,16 +11,28 @@ class Home extends Component {
     }
 
     onSubmit() {
-        //let location = $('location').val();
-       // let description = $('description').val();
-        let dateNow = Date.now().toString();
+        let location = document.getElementById("location").value;
+        let description = document.getElementById("description").value;
+        let dateNow = this.formatDate(Date.now());
         let data = {
-            Name:  "name",
+            Name:  location,
             Created_at: dateNow,
-            Description: "13456"
+            Description: description
         };
         ref.push(data);
         window.location.reload();
+    }
+
+    formatDate(date) {
+        let d = new Date(date),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+
+        return [year, month, day].join('-');
     }
 
     render() {
@@ -34,7 +46,7 @@ class Home extends Component {
                 <textarea id="description" name="home" cols="10" rows="5" placeholder={"Type in your message..."}></textarea>
                 <div className = "align-right">
                     <p>
-                    <button type = "submit" onClick={() => this.onSubmit()}> Submit </button>
+                    <button className="btn pink lighten-1 z-depth-0" type="submit" onClick={() => this.onSubmit()}> Submit </button>
                     </p>
                 </div>
                 {this.props.posts}
